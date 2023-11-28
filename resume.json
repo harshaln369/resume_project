@@ -1,0 +1,158 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Harshal Nikhare",
+    "image": "",
+    "email": "harshalnikhare92@gmail.com",
+    "phone": "+91 7030590289",
+    "summary": "Full Stack Developer with around 2 years of hands-on experience designing, developing and implementing applications and solutions using a range of technologies with 3 years of IT experience. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full-Stack Developer.",
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "harshaln369",
+        "url": "https://github.com/harshaln369"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Fargowiz Software Services Pvt. Ltd.",
+      "location": "Jaipur, Rajasthan",
+      "description": "IT consultancy company",
+      "position": "Full Stack Developer",
+      "startDate": "2022-02-22",
+      "summary": "Developed 5+ full-stack web applications to analyze and process data for different clients.",
+      "highlights": [
+        "Worked with a team to create a web app for creating surveys (Reactjs, Nodejs, Typescript and MongoDb as Database)",
+        "Implemented stripe (webhook) and storing user's payment details (backend)",
+        "Automated Google Dialogflow Agent creation process for creating survey using Google Dialogflow",
+        "Implemented state management for creating a survey - multiple questions, different question types (MCQ images as option, Q/A) etc. (Reactjs)",
+        "Worked with a team to create IVR(Interactive Voice Response) for a recruiting firm. (Nodejs, twilio and MySQL)",
+        "Implemented authentication based on voice response speech to text using twilio speech to text APIs.",
+        "Implemented new user registration, existing user applying for a job flow for users. (Nodejs and MySql)",
+        "Implemented questionaire flow using Google Dialogflow webhook to handle interview process of candidates. (Nodejs and MySql)",
+        "Implemented a feature to store user recordings in Google Cloud Storage Bucket to gbe reviewed by recruiting agencies",
+        "Worked with a team to create Admin Panel for IVR system. (Reactjs and Nodejs)",
+        "Implemented feature for admin to view user recordings and inteview answers with their recordings. (Reactjs)"
+      ]
+    },
+    {
+      "name": "Fargowiz Software Services Pvt. Ltd.",
+      "location": "Jaipur, Rajasthan",
+      "description": "IT consultancy company",
+      "position": "Full Stack Developer",
+      "startDate": "2022-02-22",
+      "highlights": [
+        "Worked with a team to create a sports procurement application for a client.",
+        "Implemented Support role for admins to login as vendors and buyers to help them with RFI (Request for Information) process. (Reactjs and Nodejs)",
+        "Implemented a flow to create Tenders for vendors based on different sectors and sports categories. (Reactjs and Nodejs)",
+        "Created a cronjob to update leaderboard in a betting application using Nodejs.",
+        "Implemented complience assessment system application for client to assess a given complience by user.",
+        "Implemented an electron desktop app launcher from scratch which upgrades and launches different applications.",
+        "Setup CICD for a project using pipeline integrations in bitbucket to deploy projects to Google Cloud",
+        "Designed and created a knowledge management platform utilizing a range of technologies, including Node js, Typescript, React, SQL and Monogodb",
+        "Developed and implemented chatbots using google Dialogflow for a survey application.",
+        "Work closely with app development team including project and product manager, developers, QA to determine problems, testing methods and best practices.",
+        "Played a key role in the development, improvement and operation of web-based software."
+      ]
+    },
+    {
+      "name": "Alacrity E-Commerce Solutions Pvt. Ltd.",
+      "location": "Nagpur, Maharashtra",
+      "description": "IT consultancy company",
+      "position": "Content Management Associate",
+      "startDate": "2015-04-01",
+      "endDate": "2016-06-01",
+      "summary": "Worked on various E-commerce websites to manage content on product page and product image, created search term generator and inventory, catalogs on CMS."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Priyadarshini Institute of Engineering and Technology",
+      "area": "Electronics and Communication",
+      "studyType": "B.E",
+      "startDate": "2010",
+      "endDate": "2014",
+      "score": "62.8%"
+    }
+  ],
+  "skills": [
+    {
+      "name": "ReactJS",
+      "level": "Advanced",
+      "keywords": ["React", "NextJS", "Redux"]
+    },
+    {
+      "name": "NodeJS",
+      "level": "Advanced",
+      "keywords": ["Node", "ExpressJS"]
+    },
+    {
+      "name": "Typescript",
+      "level": "Advanced",
+      "keywords": ["Javascript"]
+    },
+    {
+      "name": "HTML & CSS",
+      "level": "Intermediate",
+      "keywords": ["HTML", "CSS"]
+    },
+    {
+      "name": "Databases",
+      "level": "Intermediate",
+      "keywords": ["SQL", "Postgres", "MongoDB"]
+    },
+    {
+      "name": "Google Cloud",
+      "level": "Intermediate",
+      "keywords": ["Cloud Run", "Cloud Build", "CICD", "Deployment"]
+    },
+    {
+      "name": "Linux",
+      "level": "Intermediate",
+      "keywords": ["OS", "Ubuntu", "Cron", "Systemd"]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": ["Source Control Management"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Full professional proficiency"
+    },
+    {
+      "language": "Marathi",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "The Complete Guide (incl Hooks, React Router, Redux)",
+      "issuer": "Academind (Udemy)"
+    },
+    {
+      "name": "React, NodeJS, Express & MongoDB - The MERN Fullstack Guide",
+      "issuer": "Academind (Udemy)"
+    },
+    {
+      "name": "JavaScript: The Advanced Concepts (2023 Update)",
+      "issuer": "ZTM (Udemy)"
+    },
+    {
+      "name": "Complete React Developer in 2023 (w/ Redux, Hooks, GraphQL)",
+      "issuer": "ZTM (Udemy)"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

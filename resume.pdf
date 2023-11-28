@@ -1,0 +1,404 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Harshal Nikhare</title>
+
+	<style>
+	body {
+    background: #EEEEEE;
+    font: 13px "Times New Roman", Times, sans-serif;
+    line-height: 1.4;
+    margin: 40px 0;
+}
+
+em {
+    color: #999;
+}
+
+p {
+    line-height: 1.4;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    margin-bottom: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 80px 100px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #aaa;
+    -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+    width: 28%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.largeFont {
+    font-size: 20px;
+}
+
+.smallFont {
+    font-size: 13px;
+}
+
+.sectionBlock {
+    display: flex;
+    width: 100%;
+}
+
+.sectionName {
+    width: 18%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.sectionContent {
+    width: 80%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.sectionContent ul {
+    padding-left: 20px;
+    margin-top: 6px;
+    list-style-type: circle;
+}
+
+.sectionContent .title {
+    font-weight: bold;
+}
+
+.sectionContent .date {
+    float: right;
+}
+
+.sectionContent .separator {
+    height: 14px;
+}
+
+.sectionLine {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #CFCFCF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.summary {
+    margin-top: 6px;
+}
+
+.skillBlock {
+    margin-bottom: 4px;
+}
+
+.jobBlock {
+    page-break-inside: avoid;
+}
+
+.description {
+    text-align: justify;
+}
+
+blockquote.reference {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 40em) {
+    body {
+        margin: 0;
+        font-size: 14px;
+    }
+    #resume {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0.5em 1em;
+        border: none;
+    }
+    .sectionBlock {
+        flex-direction: column;
+    }
+    .sectionContent {
+        width: 100%;
+    }
+    .sectionContent .date {
+        padding-right: 2em;
+    }
+    .sectionName {
+        width: auto;
+    }
+    .largeFont {
+        font-size: 20px;
+    }
+    .smallFont {
+        font-size: 14px;
+    }
+}
+
+@media print {
+    body {
+        background: #FFFFFF;
+    }
+    #resume {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0px 0px;
+        border: 0px;
+        background: #fff;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    a {
+        color: black;
+    }
+}
+	</style>
+	
+	</head>
+	<body>
+	
+	<div id="resume">
+		<div id='nameBlock' class='largeFont'>
+			<span class='name'>
+				Harshal Nikhare
+			</span>
+		</div>
+		<div id='basicsBlock' class='smallFont'>
+			<div class='contactBlock'>
+				<span class='email'>harshalnikhare92@gmail.com</span>
+				<span class='divider'>|</span>
+				<span class='phone'>+91 7030590289</span>
+			</div>
+			<div id='profilesBlock'>
+				<span class='url'>
+					<b>Github:</b> <a href='https://github.com/harshaln369'>https://github.com/harshaln369</a>
+				</span>
+				
+			</div>
+		</div>
+		
+		<div class='sectionLine'></div>
+		<div id='summaryBlock' class="sectionBlock">
+			<div class='sectionName'>
+				<span>SUMMARY</span>
+			</div>
+			<div class='sectionContent'>
+				<span>Full Stack Developer with 1.5+ year of hands-on experience designing, developing and implementing applications and solutions using a range of technologies with 2.5 years of IT experience. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full-Stack Developer.</span>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='education' class="sectionBlock">
+			<div class='sectionName'>
+				<span>EDUCATION</span>
+			</div>
+			<div class='sectionContent'>
+				<div class='educationBlock'>
+					<span class='title'>
+						Priyadarshini Institute of Engineering and Technology
+					</span>
+					<span class='date'>
+						2010 &mdash; 2014
+					</span>
+					<div class=''>
+						B.E  - Electronics and Communication
+					</div>
+				
+				</div>
+				
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='skills' class="sectionBlock">
+			<div class='sectionName'>
+				<span>SKILLS</span>
+			</div>
+			<div class='sectionContent'>
+				<div class='skillBlock'>
+					<span class='title'>ReactJS <em>(Advanced)</em>:</span>
+					<span>React</span>, 
+					<span>NextJS</span>, 
+					<span>Redux</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>NodeJS <em>(Advanced)</em>:</span>
+					<span>Node</span>, 
+					<span>ExpressJS</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Typescript <em>(Advanced)</em>:</span>
+					<span>Javascript</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>HTML &amp; CSS <em>(Intermediate)</em>:</span>
+					<span>HTML</span>, 
+					<span>CSS</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Databases <em>(Intermediate)</em>:</span>
+					<span>SQL</span>, 
+					<span>Postgres</span>, 
+					<span>MongoDB</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Google Cloud <em>(Intermediate)</em>:</span>
+					<span>Cloud Run</span>, 
+					<span>Cloud Build</span>, 
+					<span>CICD</span>, 
+					<span>Deployment</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Linux <em>(Intermediate)</em>:</span>
+					<span>OS</span>, 
+					<span>Ubuntu</span>, 
+					<span>Cron</span>, 
+					<span>Systemd</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Git <em>(Advanced)</em>:</span>
+					<span>Source Control Management</span>
+				</div>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='workBlock' class="sectionBlock">
+			<div class='sectionName'>
+				<span>EXPERIENCE</span>
+			</div>
+			<div class='sectionContent'>
+				<div class="jobBlock">
+					<div class='blockHeader'>
+						<span class='title'>Fargowiz Software Services Pvt. Ltd.</span>
+						 | <span class="position">Full Stack Developer</span>
+						<span class='date'>
+							2022-02-22 &mdash; Present
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<div class="summary">
+						<p>Developed 4+ full-stack web applications to analyze and process data for different clients.</p>
+					</div>
+					<ul class='highlights'>
+						<li>Worked with a team to create a web app for creating surveys (Reactjs, Nodejs, Typescript and MongoDb as Database)</li>
+						<li>Implemented stripe (webhook) and storing user&#x27;s payment details (backend)</li>
+						<li>Automated Google Dialogflow Agent creation process for creating survey using Google Dialogflow</li>
+						<li>Implemented state management for creating a survey - multiple questions, different question types (MCQ images as option, Q/A) etc. (Reactjs)</li>
+						<li>Worked with a team to create IVR(Interactive Voice Response) for a recruiting firm. (Nodejs, twilio and MySQL)</li>
+						<li>Implemented authentication based on voice response speech to text using twilio speech to text APIs.</li>
+						<li>Implemented new user registration, existing user applying for a job flow for users. (Nodejs and MySql)</li>
+						<li>Implemented questionaire flow using Google Dialogflow webhook to handle interview process of candidates. (Nodejs and MySql)</li>
+						<li>Implemented a feature to store user recordings in Google Cloud Storage Bucket to gbe reviewed by recruiting agencies</li>
+						<li>Worked with a team to create Admin Panel for IVR system. (Reactjs and Nodejs)</li>
+						<li>Implemented feature for admin to view user recordings and inteview answers with their recordings. (Reactjs)</li>
+						<li>Worked with a team to create a sports procurement application for a client.</li>
+						<li>Implemented Support role for admins to login as vendors and buyers to help them with RFI (Request for Information) process. (Reactjs and Nodejs)</li>
+						<li>Implemented a flow to create Tenders for vendors based on different sectors and sports categories. (Reactjs and Nodejs)</li>
+						<li>Created a cronjob to update leaderboard in a betting application using Nodejs.</li>
+						<li>Implemented complience assessment system application for client to assess a given complience by user.</li>
+						<li>Implemented an electron desktop app launcher from scratch which upgrades and launches different applications.</li>
+						<li>Setup CICD for a project using pipeline integrations in bitbucket to deploy projects to Google Cloud</li>
+						<li>Designed and created a knowledge management platform utilizing a range of technologies, including Node js, Typescript, React, SQL and Monogodb</li>
+						<li>Developed and implemented chatbots using google Dialogflow for a survey application.</li>
+						<li>Work closely with app development team including project and product manager, developers, QA to determine problems, testing methods and best practices.</li>
+						<li>Played a key role in the development, improvement and operation of web-based software.</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="jobBlock">
+					<div class='blockHeader'>
+						<span class='title'>Alacrity E-Commerce Solutions Pvt. Ltd.</span>
+						 | <span class="position">Content Management Associate</span>
+						<span class='date'>
+							2015-04-01 &mdash; 2016-06-01
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<div class="summary">
+						<p>Worked on various E-commerce websites to manage content on product page and product image, created search term generator and inventory, catalogs on CMS.</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='certificates'>
+			<div class='sectionName'>
+				<span>CERTIFICATES</span>
+			</div>
+			<div class='sectionContent'>
+				<div class='blockHeader'>
+					<span class='title'>
+						The Complete Guide (incl Hooks, React Router, Redux)
+					</span>
+					 | <span class="issuer">Academind (Udemy)</span>
+				</div>
+				<div class='separator'></div>
+				<div class='blockHeader'>
+					<span class='title'>
+						React, NodeJS, Express &amp; MongoDB - The MERN Fullstack Guide
+					</span>
+					 | <span class="issuer">Academind (Udemy)</span>
+				</div>
+				<div class='separator'></div>
+				<div class='blockHeader'>
+					<span class='title'>
+						JavaScript: The Advanced Concepts (2023 Update)
+					</span>
+					 | <span class="issuer">ZTM (Udemy)</span>
+				</div>
+				<div class='separator'></div>
+				<div class='blockHeader'>
+					<span class='title'>
+						Complete React Developer in 2023 (w/ Redux, Hooks, GraphQL)
+					</span>
+					 | <span class="issuer">ZTM (Udemy)</span>
+				</div>
+				
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='languages' class="sectionBlock">
+			<div class='sectionName'>
+				<span>LANGUAGES</span>
+			</div>
+			<div class='sectionContent'>
+				<span class='language'>English</span>
+				<span class='fluency'><em>(Professional working proficiency)</em></span>
+				<span>,</span>
+				<span class='language'>Hindi</span>
+				<span class='fluency'><em>(Full professional proficiency)</em></span>
+				<span>,</span>
+				<span class='language'>Marathi</span>
+				<span class='fluency'><em>(Native Speaker)</em></span>
+				
+			</div>
+		</div>
+	</body>
+</html>

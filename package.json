@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@anthonyjdella/jsonresume-theme-anthonyjdella-stackoverflow": "^1.0.8",
+    "jsonresume-theme-one": "^0.0.1",
+    "jsonresume-theme-onepage-plus": "^1.0.1",
+    "jsonresume-theme-onepage-updated": "^1.0.3",
+    "jsonresume-theme-onepageresume": "^0.0.6",
+    "jsonresume-theme-stackoverflow": "^2.0.0",
+    "resumed": "^3.0.1"
+  },
+  "scripts": {
+    "html": "resumed render ./resume.json -t jsonresume-theme-onepage-plus",
+    "help": "resumed render --help"
+  }
+}
